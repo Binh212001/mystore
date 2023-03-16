@@ -1,0 +1,13 @@
+.pro__item {
+  &__price {
+    font-weight: bold;
+  }
+}
+
+.product__name {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

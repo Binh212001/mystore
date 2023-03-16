@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.active {
+  color: #a0bcff;
+}
+
+a:hover {
+  color: unset;
+}
+
+i {
+  cursor: pointer;
+}
+
+.h-100vh {
+  height: 100vh;
+}

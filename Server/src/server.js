@@ -28,7 +28,7 @@ useRoute(app);
 mongoose.set("strictPopulate", false);
 
 mongoose
-  .connect(process.env.MONGODB_URL, {})
+  .connect("mongodb+srv://PhamNgocBinh:Binh212002@clothes.lt4hcvd.mongodb.net/?retryWrites=true&w=majority", {})
   .then(() => {
     console.log("Connected ");
   })
